@@ -1,0 +1,2134 @@
+/*----------------------------------------------------------- THEME WEB FONT AREA CSS -----------------------------------------------------------*/
+@-zs-include webfonts(Raleway:300, 400, 500, 600/Lato:300, 400);
+/*----------------------------------------------------------- THEME PRESET CSS AREA -----------------------------------------------------------*/
+body, h1, h2, h3, h4, h5, h6, p, ul, ol {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+body {
+ background-color:#ffffff;
+ background-image:none;
+ background-position:left top;
+ background-repeat:repeat;
+ background-attachment:scroll;
+ background-size:auto;
+ font-family:'Lato', Verdana, Geneva, sans-serif;
+ font-size:16px;
+ color:#555555;
+}
+body, p, ul, ol {
+    font-weight: 300;
+}
+h1 {
+font-family:'Raleway', Gotham, Helvetica, Arial, sans-serif;
+font-size:30px;
+color:#333333;
+}
+h2 {
+font-family:'Raleway', Gotham, Helvetica, Arial, sans-serif;
+font-size:26px;
+color:#333333;
+}
+h3 {
+font-family:'Raleway', Gotham, Helvetica, Arial, sans-serif;
+font-size:22px;
+color:#333333;
+}
+h4 {
+font-family:'Raleway', Gotham, Helvetica, Arial, sans-serif;
+font-size:20px;
+color:#333333;
+}
+h5 {
+font-family:'Raleway', Gotham, Helvetica, Arial, sans-serif;
+font-size:18px;
+color:#333333;
+}
+h6 {
+font-family:'Raleway', Gotham, Helvetica, Arial, sans-serif;
+font-size:16px;
+color:#333333;
+}
+a {
+text-decoration:none;
+ color:#ff4d53;
+}
+a:hover {
+text-decoration:none;
+color:#ff4d53;
+}
+:focus {
+    outline: none;
+}
+a img {
+    border: 0 none;
+}
+p {
+    line-height: 1.6;
+}
+ul, ol {
+    margin: 0;
+    padding: 0 0 0 20px;
+}
+ol {
+    margin: 0;
+    padding: 0 0 0 23px;
+}
+li {
+    margin: 0;
+    padding: 1px;
+}
+hr {
+    border: 0px;
+    border-top: 2px solid #f8f8f8;
+}
+/*----------------------------------------------------------- THEME TABLE AREA CSS -----------------------------------------------------------*/
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+th {
+ font-family:'Lato', Verdana, Geneva, sans-serif;
+ font-size:16px;
+ background:#F7F7F7;
+ border-width:1px;
+ border-style:solid;
+ border-color:#E0E0E0;
+ color:#444444;
+ padding:10px;
+    font-weight: 600;
+}
+td {
+ font-family:'Lato', Verdana, Geneva, sans-serif;
+ font-size:16px;
+ background:#FFFFFF;
+ border-width:1px;
+ border-style:solid;
+ border-color:#E0E0E0;
+ color:#7F8D95;
+ padding:10px;
+}
+/*----------------------------------------------------------- THEME COMMON USAGE AREA CSS -----------------------------------------------------------*/
+.themeWidth {
+    width: 1000px;
+    margin: 0 auto;
+}
+.floatLeft {
+    float: left;
+}
+.floatRight {
+    float: right;
+}
+.clearDiv {
+    clear: both;
+}
+/*----------------------------------------------------------- THEME BACKGROUND TWO AREA CSS -----------------------------------------------------------*/
+.themeBackgroundTwo {
+ background-color:transparent;
+ background-image:url(images/footerLine.png);
+ background-position:left bottom;
+ background-repeat:repeat-x;
+ background-attachment:scroll;
+ background-size:auto;
+}
+/*----------------------------------------------------------- THEME TOP AREA CSS -----------------------------------------------------------*/
+.themeTopArea {
+    background: #ffffff;
+    padding: 0 70px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.06);
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.06);
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.06);
+    -o-box-shadow: 0 1px 1px rgba(0,0,0,0.06);
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+/*----------------------------------------------------------- THEME BRANDING AREA CSS -----------------------------------------------------------*/
+.themeBrandingArea {
+    width: 30%;
+    float: left;
+    padding: 25px 0;
+}
+.themeBrandingContainer {
+    display: table;
+    border: 0 solid;
+    width: 100%;
+}
+.tableRow {
+    display: table-row;
+}
+.tableCell {
+    display: table-cell
+}
+.themeLogoOuterContainer {
+    width: 1%;
+}
+.themeLogoArea {
+    padding-right: 20px;
+}
+.themeSitenameCaptionOuterContainer {
+    vertical-align: middle;
+    height: 100%;
+}
+.themeSitenameCaptionInnerContainer {
+    height: 100%;
+    vertical-align: middle;
+}
+.themeSitenameCaptionContainer {
+    vertical-align: middle;
+    height: 100%;
+}
+.themeSitename {
+ font-family:'Raleway', Verdana, Geneva, sans-serif;
+ font-size:36px;
+ color:#ff4d53;
+    font-weight: 300;
+    line-height: 1;
+}
+.themeCaption {
+ font-family:'Lato', Verdana, Geneva, sans-serif;
+ font-size:16px;
+ color:#9e9e9e;
+    font-weight: 300;
+    line-height: 1.5;
+}
+/*----------------------------------------------------------- THEME NAVIGATION AREA CSS -----------------------------------------------------------*/
+.themeNavigationArea {
+ background-color:transparent;
+ background-image:none;
+ background-repeat:repeat;
+ background-position:left top;
+    width: 40%;
+    position: relative;
+    float: left;
+}
+#navigation ul {
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 50%;
+}
+#navigation li {
+    display: block;
+    float: left;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    right: 50%;
+}
+#navigation li a {
+    display: block;
+    padding: 0 20px;
+ color:#777777;
+ font-size:14px;
+ font-family:'Lato', Verdana, Geneva, sans-serif;
+    font-weight: 500;
+    float: left;
+    text-decoration: none;
+    cursor: pointer;
+    line-height: 7.7;
+    text-transform: uppercase;
+}
+#navigation li.selected a {
+    border-bottom: 2px solid #ff4d53;
+}
+#navigation li:hover a, #navigation li.selected a, #navigation li.active a {
+color:#292929;
+background-color:transparent;
+background-image:none;
+background-repeat:repeat;
+background-position:left top;
+}
+#navigation li a span {
+    float: left;
+}
+#navigation li.navArrow a em, #navigation li:hover.navArrow a em, #navigation li.selected.navArrow a em, #navigation li.selected.navArrow a em {
+    background: url(images/navArrow.png) no-repeat 0 0;
+    display: block;
+    float: left;
+    height: 5px;
+    width: 7px;
+    margin: 53px 0 0 10px;
+}
+#navigation li:hover.navArrow a em, #navigation li.selected.navArrow a em, #navigation li.active.navArrow a em {
+    background: url(images/navArrowHover.png) no-repeat 0 0;
+}
+/*----------------------------------------------------- THEME SUBMENU AREA CSS -----------------------------------------------------*/
+.submenu {
+ background-color:#f3f3f3;
+ background-image:none;
+background-position:left top;
+background-repeat:repeat;
+ border-width:0;
+border-style:none;
+border-color:transparent;
+ border-radius:0;
+-moz-border-radius:0;
+-webkit-border-radius:0;
+-o-border-radius:0;
+    width: 200px;
+    position: absolute;
+    display: block;
+    padding: 0;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.08), 0 -2px 0 0 #ff4d53;
+    -webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.08), 0 -2px 0 0 #ff4d53;
+    -moz-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.08), 0 -2px 0 0 #ff4d53;
+    -o-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.08), 0 -2px 0 0 #ff4d53;
+    -webkit-transition: height 0.5s cubic-bezier(0.25, 0.1, 0.25, 1) 0s;
+    -moz-transition: height 0.5s cubic-bezier(0.25, 0.1, 0.25, 1) 0s;
+    -o-transition: height 0.5s cubic-bezier(0.25, 0.1, 0.25, 1) 0s;
+    -ms-transition: height 0.5s cubic-bezier(0.25, 0.1, 0.25, 1) 0s;
+    transition: height 0.5s cubic-bezier(0.25, 0.1, 0.25, 1) 0s;
+}
+.submenu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 1px;
+    line-height: 0;
+}
+.submenu li {
+    display: block;
+    overflow: hidden;
+    padding: 0;
+    margin: 0px;
+}
+.submenu li a {
+ color:#555555;
+ font-size:16px;
+ font-family:'Lato', Verdana, Geneva, sans-serif;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    width: 100%;
+    float: left;
+    cursor: pointer;
+    padding: 8px 0;
+    line-height: 1.8;
+}
+.submenu li a:hover, .submenu li.selected a {
+ color:#ffffff;
+background-color:#333333;
+background-image:none;
+background-position:left top;
+background-repeat:repeat;
+}
+.submenu li a span {
+    width: 80%;
+    float: left;
+    margin: 0;
+    word-wrap: break-word;
+    padding-left: 12px;
+}
+.submenu li.navArrow a em, .submenu li:hover.navArrow a em {
+    background: transparent url(images/subnavArrow.png) no-repeat scroll center left;
+    float: left;
+    height: 7px;
+    width: 7px;
+    margin-top: 12px;
+}
+.submenu li:hover.navArrow a em {
+    background: transparent url(images/subnavArrowHover.png) no-repeat scroll center left;
+}
+/*--------------------------------------------------------- THEME SEARCH BOX AREA CSS ------------------------------------------------------------------------------------*/
+.themeSearchAreaContainer {
+    width: 30%;
+}
+.themeSearchContainer {
+    float: right;
+    padding-top: 44px;
+}
+.themeSearchBox {
+    width: 170px;
+    height: 28px;
+    position: relative;
+    border: 1px solid #b9b9b9;
+}
+.themeSearchBox input[type=text] {
+    background: transparent;
+    width: 130px;
+    height: 28px;
+    border: 0;
+    outline: none;
+    line-height: 28px;
+    font-family: 'Lato', Verdana, Geneva, sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #555555;
+    padding: 0 5px;
+}
+.themeSearchBox input[type=submit] {
+    background: url(images/searchicon.png) center center no-repeat;
+    width: 30px;
+    height: 28px;
+    padding-left: 7px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border: 0 none;
+    cursor: pointer;
+}
+/*----------------------------------------------------- THEME BANNER AREA CSS -----------------------------------------------------*/
+.themeBanner {
+    margin-bottom: 50px;
+    background: #ffffff;
+    padding: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    -o-box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+/*------------------------------------------- THEME BREADCRUMB AREA CSS -------------------------------------------*/
+.themeBreadcrumb {
+    margin-bottom: 30px;
+}
+.themeBreadcrumb span {
+    padding: 0 10px;
+}
+.themeBreadcrumb p {
+    word-wrap: break-word
+}
+/*------------------------------------------- THEME CONTENT AREA CSS -------------------------------------------*/
+.themeContentContainer {
+ background-color:transparent;
+ background-image:none;
+ background-position:0 0;
+ background-repeat:repeat;
+ background-attachment:scroll;
+ background-size:auto;
+ box-shadow: 0 0 0 0 transparent, 0px 0px 0px 0 transparent inset;
+ -webkit-box-shadow:0 0 0 0 transparent, 0px 0px 0px 0 transparent inset;
+ -moz-box-shadow:0 0 0 0 transparent, 0px 0px 0px 0 transparent inset;
+ -o-box-shadow:0 0 0 0 transparent, 0px 0px 0px 0 transparent inset;
+ border-width: 0;
+ border-style:none;
+ border-color:transparent;
+ border-radius: 0;
+ -moz-border-radius:0;
+ -webkit-border-radius:0;
+ -o-border-radius:0;
+    padding: 0 0 150px;
+}
+/*----------------------------------------------------- THEME CONTENT AREA CSS -----------------------------------------------------*/
+.themeContentArea {
+    width: 65%;
+    min-height: 400px;
+    height: auto !important;
+    height: 400px;
+}
+/*----------------------------------------------------- THEME SIDEBAR AREA CSS -----------------------------------------------------*/
+.themeSidebarArea {
+    width: 35%;
+}
+.themeSidebarAreaInner {
+    padding: 25px;
+    min-height: 300px;
+    height: auto !important;
+    height: 300px;
+    margin-left: 50px;
+ background-color:#fafafa;
+ background-image:none;
+ background-position:0 0;
+ background-repeat:no-repeat;
+ background-attachment:scroll;
+ background-size:auto;
+ box-shadow: 0px 0px 0px 0px transparent, 0px 0px 0 0 transparent inset;
+ -webkit-box-shadow: 0px 0px 0px 0px transparent, 0px 0px 0 0 transparent inset;
+ -moz-box-shadow: 0px 0px 0px 0px transparent, 0px 0px 0 0 transparent inset;
+ -o-box-shadow: 0px 0px 0px 0px transparent, 0px 0px 0 0 transparent inset;
+ border-width: 1px;
+ border-style:solid;
+ border-color:#f3f3f3;
+ border-radius: 0;
+ -moz-border-radius:0;
+ -webkit-border-radius:0;
+ -o-border-radius:0;
+ font-family:'Lato', Verdana, Geneva, sans-serif;
+ font-size:16px;
+ color:#555555;
+}
+.themeSidebarAreaInner h1 {
+font-family:'Raleway', Gotham, Helvetica, Arial, sans-serif;
+font-size:24px;
+color:#333333;
+}
+.themeSidebarAreaInner h2 {
+font-family:'Raleway', Gotham, Helvetica, Arial, sans-serif;
+font-size:22px;
+color:#333333;
+}
+.themeSidebarAreaInner h3 {
+font-family:'Raleway', Gotham, Helvetica, Arial, sans-serif;
+font-size:20px;
+color:#333333;
+}
+.themeSidebarAreaInner h4 {
+font-family:'Raleway', Gotham, Helvetica, Arial, sans-serif;
+font-size:18px;
+color:#333333;
+}
+.themeSidebarAreaInner h5 {
+font-family:'Raleway', Gotham, Helvetica, Arial, sans-serif;
+font-size:16px;
+color:#333333;
+}
+.themeSidebarAreaInner h6 {
+font-family:'Raleway', Gotham, Helvetica, Arial, sans-serif;
+font-size:14px;
+color:#333333;
+}
+.themeSidebarAreaInner a {
+text-decoration:none;
+ color:#ff4d53;
+}
+.themeSidebarAreaInner a:hover {
+text-decoration:none;
+color:#ff4d53;
+}
+.themeSidebarAreaInner th {
+ font-family:'Lato', Verdana, Geneva, sans-serif;
+ font-size:16px;
+ background:#F7F7F7;
+ border-width:1px;
+ border-style:solid;
+ border-color:#E0E0E0;
+ color:#444444;
+ padding:10px;
+    font-weight: 600;
+}
+.themeSidebarAreaInner td {
+ font-family:'Lato', Verdana, Geneva, sans-serif;
+ font-size:16px;
+ background:#FFFFFF;
+ border-width:1px;
+ border-style:solid;
+ border-color:#E0E0E0;
+ color:#7F8D95;
+ padding:10px;
+}
+.themeSidebarAreaInner form li span input[type=text], .themeSidebarAreaInner form li span textarea {
+    width: 190px;
+}
+.themeSidebarAreaInner form li span select {
+    width: 200px;
+}
+.themeSidebarAreaInner form ul li label, .themeSidebarAreaInner form ul li div {
+    float: none;
+}
+.themeSidebarAreaInner form ul li label {
+    text-align: left;
+    padding-right: 0px;
+}
+.themeSidebarAreaInner form li input[type=submit], .themeSidebarAreaInner form li input[type=reset] {
+    padding: 12px 25px;
+}
+.themeSidebarAreaInner .newsletter-input-field {
+    width:225px;
+}
+.themeSidebarAreaInner .newsletter-layout-3 .newsletter-form {
+    width:225px;
+}
+/*----------------------------------------------------- THEME SIDEBAR HIGHLIGHT BOX AREA CSS -----------------------------------------------------*/
+.themeSidebarAreaInner .zs-highlight-box {
+ background-color: #ffffff;
+ background-image: none;
+ background-image: none, -moz-linear-gradient(bottom, transparent, transparent);
+ background-image: none, -webkit-linear-gradient(bottom, transparent, transparent);
+ background-image: none, -o-linear-gradient(bottom, transparent, transparent);
+ background-position: top left;
+ background-repeat: repeat;
+ box-shadow: 0 2px 2px 0 rgba(0,0,0,0.1), 0px 0 0 0 transparent inset;
+ -moz-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.1), 0px 0 0 0 transparent inset;
+ -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.1), 0px 0 0 0 transparent inset;
+ -o-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.1), 0px 0 0 0 transparent inset;
+ border-width: 0;
+ border-style:none;
+ border-color:transparent;
+ border-radius: 5px;
+ -moz-border-radius:5px;
+ -webkit-border-radius:5px;
+ -o-border-radius:5px;
+ padding: 10px;
+ margin: 3px;
+    min-height: 150px;
+font-family:'Lato', Verdana, Geneva, sans-serif;
+ font-size:16px;
+ color:#555555;
+}
+.themeSidebarAreaInner .zs-highlight-box h1 {
+font-family:'Raleway', Gotham, Helvetica, Arial, sans-serif;
+font-size:30px;
+color:#ff4d53;
+}
+.themeSidebarAreaInner .zs-highlight-box h2 {
+font-family:'Raleway', Gotham, Helvetica, Arial, sans-serif;
+font-size:26px;
+color:#ff4d53;
+}
+.themeSidebarAreaInner .zs-highlight-box h3 {
+font-family:'Raleway', Gotham, Helvetica, Arial, sans-serif;
+font-size:22px;
+color:#ff4d53;
+}
+.themeSidebarAreaInner .zs-highlight-box h4 {
+font-family:'Raleway', Gotham, Helvetica, Arial, sans-serif;
+font-size:20px;
+color:#ff4d53;
+}
+.themeSidebarAreaInner .zs-highlight-box h5 {
+font-family:'Raleway', Gotham, Helvetica, Arial, sans-serif;
+font-size:18px;
+color:#ff4d53;
+}
+.themeSidebarAreaInner .zs-highlight-box h6 {
+font-family:'Raleway', Gotham, Helvetica, Arial, sans-serif;
+font-size:16px;
+color:#ff4d53;
+}
+.themeSidebarAreaInner .zs-highlight-box a {
+ color:#ff4d53;
+ text-decoration:none;
+}
+.themeSidebarAreaInner .zs-highlight-box a:hover {
+ text-decoration:none;
+ color:#ff4d53;
+}
+.themeSidebarAreaInner .zs-highlight-box th {
+ font-family:'Lato', Verdana, Geneva, sans-serif;
+ font-size:16px;
+ background:#535353;
+ border-width:1px;
+ border-style:solid;
+ border-color:#4b4b4b;
+ color:#ffffff;
+ padding:10px;
+    font-weight: 600;
+}
+.themeSidebarAreaInner .zs-highlight-box td {
+ font-family:'Lato', Verdana, Geneva, sans-serif;
+ font-size:16px;
+ background:#fbfbfb;
+ border-width:1px;
+ border-style:solid;
+ border-color:#e1e1e1;
+ color:#555555;
+ padding:10px;
+}
+.themeSidebarAreaInner .zs-highlight-box form li span input[type=text], .themeSidebarAreaInner .zs-highlight-box form li span textarea {
+    width: 150px;
+}
+.themeSidebarAreaInner .zs-highlight-box form li span select {
+    width: 160px;
+}
+.themeSidebarAreaInner .zs-highlight-box form li input[type=submit], .themeSidebarAreaInner .zs-highlight-box form li input[type=reset] {
+    padding: 12px 25px;
+}
+.themeSidebarAreaInner .zs-highlight-box .newsletter-input-field, .themeSidebarAreaInner .zs-tabs-accordion-content .newsletter-input-field {
+    width:200px;
+}
+.themeSidebarAreaInner .zs-highlight-box .newsletter-layout-3 .newsletter-form, .themeSidebarAreaInner .zs-tabs-accordion-content .newsletter-layout-3 .newsletter-form  {
+    width:200px;
+}
+/*-----------------------------------  THEME SIDEBAR TEXT-LIGHT & HIGHLIGHT COLOR AREA CSS -----------------------------------------------*/
+.themeSidebarAreaInner .zs-text-light-color {
+color:#bbbbbb;
+}
+.themeSidebarAreaInner .zs-text-highlight-color {
+color:#333333;
+}
+.themeSidebarAreaInner .zs-highlight-box .zs-text-light-color {
+color:#bbbbbb;
+}
+.themeSidebarAreaInner .zs-highlight-box .zs-text-highlight-color {
+color:#ff4d53;
+}
+/*----------------------------------- THEME SIDEBAR TABS ACCORDION AREA CSS -----------------------------------*/
+.themeSidebarAreaInner .zs-tabs ul, .themeSidebarAreaInner .zs-highlight-box .zs-tabs ul {
+    list-style: none;
+    float: left;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    border-bottom: 1px solid #ECECEC;
+    display:none;
+}
+.themeSidebarAreaInner .zs-tabs ul li, .themeSidebarAreaInner .zs-highlight-box .zs-tabs ul li {
+    float: left;
+    margin: 0px 2px 0px 0;
+    padding: 0;
+}
+.themeSidebarAreaInner .zs-tabs ul li div, .themeSidebarAreaInner .zs-highlight-box .zs-tabs ul li div {
+    cursor: pointer;
+    position: relative;
+    padding: 0 20px;
+    font-size: 14px;
+    color: #555555;
+    margin: 0 0 -1px;
+    line-height: 3;
+    background: #F2F2F2;
+    border-top: 2px solid transparent;
+    border-bottom: 1px solid #ECECEC;
+}
+.themeSidebarAreaInner .zs-tabs ul li.selected div, .themeSidebarAreaInner .zs-highlight-box .zs-tabs ul li.selected div {
+    background: #ffffff;
+    border-top: 3px solid #FF4D53;
+    padding-top: 0;
+    color: #FF4D53;
+    border-left: 1px solid #ECECEC;
+    border-right: 1px solid #ECECEC;
+    border-bottom: 0;
+}
+.themeSidebarAreaInner .zs-tabs-accordion-content, .themeSidebarAreaInner .zs-highlight-box .zs-tabs-accordion-content {
+    background: #ffffff;
+    border: 1px solid #ECECEC;
+    padding: 10px;
+    display: none;
+    clear: both;
+    border-top: 0;
+    margin-bottom: 5px;
+    min-height: 70px;
+    height: auto !important;
+    height: 70px;
+}
+.themeSidebarAreaInner .zs-accordion, .themeSidebarAreaInner .zs-highlight-box .zs-accordion {
+    color: #555555;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    display:block;
+    background: #E4E4E4;
+    border: 1px solid #E2E2E2;
+}
+.themeSidebarAreaInner .zs-accordion.selected, .themeSidebarAreaInner .zs-highlight-box .zs-accordion.selected {
+    background: #FF4D53;
+    color: #ffffff;
+    margin-bottom: 0px;
+    border-color: #FF4D53;
+}
+/*--------------------- THEME SIDEBAR HIGHLIGHT BOX TABS ACCORDION AREA CSS ---------------------*/
+.themeSidebarAreaInner .zs-highlight-box .zs-tabs ul li div {
+    background:#E9E9E9;
+}
+.themeSidebarAreaInner .zs-highlight-box .zs-tabs-accordion-content h1, .themeSidebarAreaInner .zs-highlight-box .zs-tabs-accordion-content h2, .themeSidebarAreaInner .zs-highlight-box .zs-tabs-accordion-content h3, .themeSidebarAreaInner .zs-highlight-box .zs-tabs-accordion-content h4, .themeSidebarAreaInner .zs-highlight-box .zs-tabs-accordion-content h5, .themeSidebarAreaInner .zs-highlight-box .zs-tabs-accordion-content h6 {
+    color: #000000;
+}
+.themeSidebarAreaInner .zs-highlight-box .zs-tabs-accordion-content a, .themeSidebarAreaInner .zs-highlight-box .zs-tabs-accordion-content a:hover {
+    color: #000000;
+}
+.themeSidebarAreaInner .zs-highlight-box .zs-tabs-accordion-content hr {
+    border-top-color: #dbdbdb;
+}
+.themeSidebarAreaInner .zs-highlight-box .zs-tabs-accordion-content th {
+    background: #535353;
+    border-color: #4b4b4b;
+    color: #ffffff;
+}
+.themeSidebarAreaInner .zs-highlight-box .zs-tabs-accordion-content td {
+    background: #fbfbfb;
+    border-color: #e1e1e1;
+    color: #555555;
+}
+.themeSidebarAreaInner .zs-highlight-box .zs-tabs-accordion-content form li span input[type="text"], .themeSidebarAreaInner .zs-highlight-box .zs-tabs-accordion-content form li span textarea, .themeSidebarAreaInner .zs-highlight-box .zs-tabs-accordion-content form li span select {
+    width: 140px;
+}
+.themeSidebarAreaInner .zs-highlight-box .zs-tabs-accordion-content form li span select {
+    width: 153px;
+}
+.themeSidebarAreaInner .zs-highlight-box .zs-tabs-accordion-content form li input[type="submit"], .themeSidebarAreaInner .zs-highlight-box .zs-tabs-accordion-content form li input[type="reset"] {
+    padding: 12px 15px;
+}
+/*--------------------------------------------------------- THEME FOOTER AREA CSS ------------------------------------------------------------------------------------*/
+.themeFooterArea {
+background-color:#fafafa;
+ background-image:none;
+ background-position:top left;
+ background-repeat:repeat;
+ background-attachment:scroll;
+ background-size:auto;
+ box-shadow: 0px 0px 0 0px transparent, 0px 3px 0px 0 #f8f8f8 inset;
+ -moz-box-shadow: 0px 0px 0 0px transparent, 0px 3px 0px 0 #f8f8f8 inset;
+ -o-box-shadow: 0px 0px 0 0px transparent, 0px 3px 0px 0 #f8f8f8 inset;
+ -webkit-box-shadow: 0px 0px 0 0px transparent, 0px 3px 0px 0 #f8f8f8 inset;
+ border-width:0;
+ border-style:none;
+ border-color:transparent;
+ border-radius: 0;
+ -moz-border-radius:0;
+ -webkit-border-radius:0;
+ -o-border-radius:0;
+ font-family:'Lato', Verdana, Geneva, sans-serif;
+ font-size:16px;
+ color:#555555;
+    padding: 35px 0;
+    min-height: 150px;
+    height: auto !important;
+    height: 150px;
+}
+.themeFooterArea h1 {
+font-family:'Raleway', Gotham, Helvetica, Arial, sans-serif;
+font-size:24px;
+color:#333333;
+}
+.themeFooterArea h2 {
+font-family:'Raleway', Gotham, Helvetica, Arial, sans-serif;
+font-size:22px;
+color:#333333;
+}
+.themeFooterArea h3 {
+font-family:'Raleway', Gotham, Helvetica, Arial, sans-serif;
+font-size:20px;
+color:#333333;
+}
+.themeFooterArea h4 {
+font-family:'Raleway', Gotham, Helvetica, Arial, sans-serif;
+font-size:18px;
+color:#333333;
+}
+.themeFooterArea h5 {
+font-family:'Raleway', Gotham, Helvetica, Arial, sans-serif;
+font-size:16px;
+color:#333333;
+}
+.themeFooterArea h6 {
+font-family:'Raleway', Gotham, Helvetica, Arial, sans-serif;
+font-size:14px;
+color:#333333;
+}
+.themeFooterArea a {
+text-decoration:none;
+ color:#fb7a15;
+}
+.themeFooterArea a:hover {
+text-decoration:none;
+color:#fb7a15;
+}
+.themeFooterArea th {
+ font-family:'Lato', Verdana, Geneva, sans-serif;
+ font-size:16px;
+ background:#F7F7F7;
+ border-width:1px;
+ border-style:solid;
+ border-color:#E0E0E0;
+ color:#444444;
+ padding:10px;
+    font-weight: 600;
+}
+.themeFooterArea td {
+ font-family:'Lato', Verdana, Geneva, sans-serif;
+ font-size:16px;
+ background:#FFFFFF;
+ border-width:1px;
+ border-style:solid;
+ border-color:#E0E0E0;
+ color:#7F8D95;
+ padding:10px;
+}
+/*----------------------------------------------------- THEME FOOTER HIGHLIGHT BOX AREA CSS -----------------------------------------------------*/
+.themeFooterArea .zs-highlight-box {
+ background-color: #ffffff;
+ background-image: none;
+ background-image: none, -moz-linear-gradient(bottom, transparent, transparent);
+ background-image: none, -webkit-linear-gradient(bottom, transparent, transparent);
+ background-image: none, -o-linear-gradient(bottom, transparent, transparent);
+ background-position: top left;
+ background-repeat: repeat;
+ box-shadow: 0 2px 2px 0 rgba(0,0,0,0.1), 0px 0 0 0 transparent inset;
+ -moz-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.1), 0px 0 0 0 transparent inset;
+ -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.1), 0px 0 0 0 transparent inset;
+ -o-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.1), 0px 0 0 0 transparent inset;
+ border-width: 0;
+ border-style:none;
+ border-color:transparent;
+ border-radius: 5px;
+ -moz-border-radius:5px;
+ -webkit-border-radius:5px;
+ -o-border-radius:5px;
+ padding: 20px;
+ margin: 3px;
+    min-height: 150px;
+font-family:'Lato', Verdana, Geneva, sans-serif;
+ font-size:16px;
+ color:#555555;
+}
+.themeFooterArea .zs-highlight-box h1 {
+font-family:'Raleway', Gotham, Helvetica, Arial, sans-serif;
+font-size:30px;
+color:#ff4d53;
+}
+.themeFooterArea .zs-highlight-box h2 {
+font-family:'Raleway', Gotham, Helvetica, Arial, sans-serif;
+font-size:26px;
+color:#ff4d53;
+}
+.themeFooterArea .zs-highlight-box h3 {
+font-family:'Raleway', Gotham, Helvetica, Arial, sans-serif;
+font-size:22px;
+color:#ff4d53;
+}
+.themeFooterArea .zs-highlight-box h4 {
+font-family:'Raleway', Gotham, Helvetica, Arial, sans-serif;
+font-size:20px;
+color:#ff4d53;
+}
+.themeFooterArea .zs-highlight-box h5 {
+font-family:'Raleway', Gotham, Helvetica, Arial, sans-serif;
+font-size:18px;
+color:#ff4d53;
+}
+.themeFooterArea .zs-highlight-box h6 {
+font-family:'Raleway', Gotham, Helvetica, Arial, sans-serif;
+font-size:16px;
+color:#ff4d53;
+}
+.themeFooterArea .zs-highlight-box a {
+ color:#ff4d53;
+ text-decoration:none;
+}
+.themeFooterArea .zs-highlight-box a:hover {
+ text-decoration:none;
+ color:#ff4d53;
+}
+.themeFooterArea .zs-highlight-box th {
+ font-family:'Lato', Verdana, Geneva, sans-serif;
+ font-size:16px;
+ background:#535353;
+ border-width:1px;
+ border-style:solid;
+ border-color:#4b4b4b;
+ color:#ffffff;
+ padding:10px;
+    font-weight: 600;
+}
+.themeFooterArea .zs-highlight-box td {
+ font-family:'Lato', Verdana, Geneva, sans-serif;
+ font-size:16px;
+ background:#fbfbfb;
+ border-width:1px;
+ border-style:solid;
+ border-color:#e1e1e1;
+ color:#555555;
+ padding:10px;
+}
+/*-----------------------------------  THEME FOOTER TEXT-LIGHT & HIGHLIGHT COLOR AREA CSS -----------------------------------------------*/
+.themeFooterArea .zs-text-light-color {
+color:#bbbbbb;
+}
+.themeFooterArea .zs-text-highlight-color {
+color:#333333;
+}
+.themeFooterArea .zs-highlight-box .zs-text-light-color {
+color:#bbbbbb;
+}
+.themeFooterArea .zs-highlight-box .zs-text-highlight-color {
+color:#ff4d53;
+}
+/*----------------------------------- THEME FOOTER AREA TABS ACCORDION AREA CSS -----------------------------------*/
+.themeFooterArea .zs-tabs ul, .themeFooterArea .zs-highlight-box .zs-tabs ul {
+    list-style: none;
+    float: left;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    border-bottom: 1px solid #ECECEC;
+}
+.themeFooterArea .zs-tabs ul li, .themeFooterArea .zs-highlight-box .zs-tabs ul li {
+    float: left;
+    margin: 0px 2px 0px 0;
+    padding: 0;
+}
+.themeFooterArea .zs-tabs ul li div, .themeFooterArea .zs-highlight-box .zs-tabs ul li div {
+    cursor: pointer;
+    position: relative;
+    padding: 0 20px;
+    font-size: 14px;
+    color: #555555;
+    margin: 0 0 -1px;
+    line-height: 3;
+    background: #F2F2F2;
+    border-top: 2px solid transparent;
+    border-bottom: 1px solid #ECECEC;
+}
+.themeFooterArea .zs-tabs ul li.selected div, .themeFooterArea .zs-highlight-box .zs-tabs ul li.selected div {
+    background: #ffffff;
+    border-top: 3px solid #FF4D53;
+    padding-top: 0;
+    color: #FF4D53;
+    border-left: 1px solid #ECECEC;
+    border-right: 1px solid #ECECEC;
+    border-bottom: 0;
+}
+.themeFooterArea .zs-tabs-accordion-content, .themeFooterArea .zs-highlight-box .zs-tabs-accordion-content {
+    background: #ffffff;
+    border: 1px solid #ECECEC;
+    padding: 15px;
+    display: none;
+    clear: both;
+    border-top: 0;
+    margin-bottom: 5px;
+    min-height: 70px;
+    height: auto !important;
+    height: 70px;
+}
+.themeFooterArea .zs-accordion, .themeFooterArea .zs-highlight-box .zs-accordion {
+    color: #555555;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    display: none;
+        background: #E4E4E4;
+    border: 1px solid #E2E2E2;
+}
+.themeFooterArea .zs-accordion.selected, .themeFooterArea .zs-highlight-box .zs-accordion.selected {
+    background: #FF4D53;
+    color: #ffffff;
+    margin-bottom: 0px;
+    border-color: #FF4D53;
+}
+/*--------------------- THEME HIGHLIGHT BOX TABS ACCORDION AREA CSS ---------------------*/
+.themeFooterArea .zs-highlight-box .zs-tabs ul li div {
+    background:#E9E9E9;
+}
+.themeFooterArea .zs-highlight-box .zs-tabs-accordion-content h1, .themeFooterArea .zs-highlight-box .zs-tabs-accordion-content h2, .themeFooterArea .zs-highlight-box .zs-tabs-accordion-content h3, .themeFooterArea .zs-highlight-box .zs-tabs-accordion-content h4, .themeFooterArea .zs-highlight-box .zs-tabs-accordion-content h5, .themeFooterArea .zs-highlight-box .zs-tabs-accordion-content h6 {
+    color: #000000;
+}
+.themeFooterArea .zs-highlight-box .zs-tabs-accordion-content a, .themeFooterArea .zs-highlight-box .zs-tabs-accordion-content a:hover {
+    color: #000000;
+}
+.themeFooterArea .zs-highlight-box .zs-tabs-accordion-content hr {
+    border-top-color: #dbdbdb;
+}
+/*--------------------------------------------------------------- THEME SLIDESHOW AREA CSS ---------------------------------------------------------------*/
+.zs-slideshow-right-arrow {
+    background: url(images/zs-slideshow-right-arrow.png) left top no-repeat;
+    cursor: pointer;
+    height: 40px;
+    left: auto;
+    right: 15px;
+    margin-top: -20px;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    bottom: auto;
+    transition: opacity 500ms ease 0s;
+    -webkit-transition: opacity 500ms ease 0s;
+    -moz-transition: opacity 500ms ease 0s;
+    -o-transition: opacity 500ms ease 0s;
+    width: 40px;
+    z-index: 150;
+}
+.zs-slideshow-left-arrow {
+    background: url(images/zs-slideshow-left-arrow.png) left top no-repeat;
+    cursor: pointer;
+    height: 40px;
+    right: auto;
+    left: 15px;
+    margin-top: -20px;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    bottom: auto;
+    transition: opacity 500ms ease 0s;
+    -webkit-transition: opacity 500ms ease 0s;
+    -moz-transition: opacity 500ms ease 0s;
+    -o-transition: opacity 500ms ease 0s;
+    width: 40px;
+    z-index: 150;
+}
+.themeSlideshowOuterContainer {
+    bottom: 15px;
+    height: 15px;
+    left: auto;
+    opacity: 0;
+    text-align: center;
+    position: absolute;
+    transition: opacity 500ms ease 0s;
+    -webkit-transition: opacity 500ms ease 0s;
+    -moz-transition: opacity 500ms ease 0s;
+    -o-transition: opacity 500ms ease 0s;
+    z-index: 150;
+}
+.themeSlideshowInnerContainer {
+    background: #ffffff;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    padding: 0 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    -o-box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+.zs-slideshow-control-active {
+    background: url(images/zs-slideshow-control-active.png) no-repeat center center;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0;
+    height: 12px;
+    width: 15px;
+    margin: 0px 3px;
+}
+.zs-slideshow-control {
+    background: url(images/zs-slideshow-control.png) no-repeat center center;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0;
+    height: 12px;
+    width: 15px;
+    margin: 0px 3px;
+}
+/*--------------------------------------------------------------- THEME SOCIAL ICONS AREA CSS ---------------------------------------------------------------*/
+.themeSocialIconContainer {
+    position: absolute;
+    top: 260px;
+    right: 5px;
+}
+.themeSocialiconArea {
+}
+.zs-socialicon-email, .zs-socialicon-facebook, .zs-socialicon-flickr, .zs-socialicon-googleplus, .zs-socialicon-linkedin, .zs-socialicon-pinterest, .zs-socialicon-rss, .zs-socialicon-twitter, .zs-socialicon-youtube, .zs-socialicon-medium, .zs-socialicon-instagram {
+    background: url('images/zs-socialicon-sprite.png') no-repeat top left;
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin-bottom: -1px;
+    border: 1px solid #E8E8E8;
+}
+.zs-socialicon-email {
+    background-position: 0 -0px;
+}
+.zs-socialicon-facebook {
+    background-position: 0 -30px;
+}
+.zs-socialicon-flickr {
+    background-position: 0 -60px;
+}
+.zs-socialicon-googleplus {
+    background-position: 0 -90px;
+}
+.zs-socialicon-linkedin {
+    background-position: 0 -120px;
+}
+.zs-socialicon-pinterest {
+    background-position: 0 -150px;
+}
+.zs-socialicon-rss {
+    background-position: 0 -180px;
+}
+.zs-socialicon-twitter {
+    background-position: 0 -210px;
+}
+.zs-socialicon-youtube {
+    background-position: 0 -240px;
+}
+.zs-socialicon-medium {
+    background-position: 0 -270px;
+}
+.zs-socialicon-instagram {
+    background-position: 0 -300px;
+}
+/*--------------------------------------------------------------- THEME FORM AREA CSS -------------------------------------------------------------------*/
+form ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+form li {
+    overflow: hidden;
+    padding: 10px 0;
+    margin: 0;
+}
+form ul li label, form ul li div {
+    width: auto;
+    float: left;
+    padding: 5px 0 0;
+}
+form ul li label {
+    width: 155px;
+    text-align: right;
+    padding-right: 25px;
+}
+form li span input, form li span label {
+    float: none;
+    width: auto;
+    padding: 0 3px;
+    margin: 7px 2px 0;
+#padding-top:3px;
+}
+form li div span {
+    display: block;
+}
+form li span input[type=text], form li span textarea, form li span select {
+    background: #ffffff;
+    border: 1px solid #e3e3e3;
+    float: left;
+    margin: 0px;
+    padding: 10px 5px;
+    resize: none;
+    width: 300px;
+ font-family:'Lato', Verdana, Geneva, sans-serif;
+ font-size:16px;
+ color:#555555;
+    font-weight: 300;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.07);
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.07);
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.07);
+    -o-box-shadow: 0 1px 1px rgba(0,0,0,0.07);
+}
+form li span select {
+    width: 310px;
+}
+form li span textarea {
+    height: 100px;
+    overflow: auto;
+}
+form .dateinvoker {
+    background: url(images/datePickerIcn.png) 0 0 no-repeat;
+    width: 18px;
+    height: 20px;
+    border: none;
+    margin: 0px;
+    vertical-align: middle;
+    margin-top: 10px;
+    outline: none;
+    margin-left: 7px;
+    padding: 0px;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -o-border-radius: 0px;
+}
+form li input[type=submit], form li input[type=reset], button {
+    -webkit-appearance: none;
+    background: #f44248;
+    padding: 12px 35px;
+    margin-right: 10px;
+    cursor: pointer;
+    border: 0px solid;
+#padding:5px 7px;
+    color: #ffffff;
+ font-family:'Lato', Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+form li input[type=reset] {
+    background: none;
+    color: #ff4d53;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+/*----------------------------------------------------- THEME BODY HIGHLIGHT BOX AREA CSS -----------------------------------------------------*/
+.zs-highlight-box {
+ background-color: #f4f4f4;
+ background-image: none;
+ background-image: none, -moz-linear-gradient(bottom, transparent, transparent);
+ background-image: none, -webkit-linear-gradient(bottom, transparent, transparent);
+ background-image: none, -o-linear-gradient(bottom, transparent, transparent);
+ background-position: top left;
+ background-repeat: repeat;
+ box-shadow: 0 2px 2px 0 rgba(0,0,0,0.1), 0px 0 0 0 transparent inset;
+ -moz-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.1), 0px 0 0 0 transparent inset;
+ -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.1), 0px 0 0 0 transparent inset;
+ -o-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.1), 0px 0 0 0 transparent inset;
+ border-width: 0;
+ border-style:none;
+ border-color:transparent;
+ border-radius: 5px;
+ -moz-border-radius:5px;
+ -webkit-border-radius:5px;
+ -o-border-radius:5px;
+ padding: 20px;
+ margin: 3px;
+    min-height: 150px;
+font-family:'Lato', Verdana, Geneva, sans-serif;
+ font-size:16px;
+ color:#555555;
+}
+.zs-highlight-box h1 {
+font-family:'Raleway', Gotham, Helvetica, Arial, sans-serif;
+font-size:30px;
+color:#ff4d53;
+}
+.zs-highlight-box h2 {
+font-family:'Raleway', Gotham, Helvetica, Arial, sans-serif;
+font-size:26px;
+color:#ff4d53;
+}
+.zs-highlight-box h3 {
+font-family:'Raleway', Gotham, Helvetica, Arial, sans-serif;
+font-size:22px;
+color:#ff4d53;
+}
+.zs-highlight-box h4 {
+font-family:'Raleway', Gotham, Helvetica, Arial, sans-serif;
+font-size:20px;
+color:#ff4d53;
+}
+.zs-highlight-box h5 {
+font-family:'Raleway', Gotham, Helvetica, Arial, sans-serif;
+font-size:18px;
+color:#ff4d53;
+}
+.zs-highlight-box h6 {
+font-family:'Raleway', Gotham, Helvetica, Arial, sans-serif;
+font-size:16px;
+color:#ff4d53;
+}
+.zs-highlight-box a {
+ color:#ff4d53;
+ text-decoration:none;
+}
+.zs-highlight-box a:hover {
+ text-decoration:none;
+ color:#ff4d53;
+}
+.zs-highlight-box th {
+ font-family:'Lato', Verdana, Geneva, sans-serif;
+ font-size:16px;
+ background:#f7f7f7;
+ border-width:1px;
+ border-style:solid;
+ border-color:#e0e0e0;
+ color:#444444;
+ padding:10px;
+}
+.zs-highlight-box td {
+ font-family:'Lato', Verdana, Geneva, sans-serif;
+ font-size:16px;
+ background:#ffffff;
+ border-width:1px;
+ border-style:solid;
+ border-color:#e0e0e0;
+ color:#7F8D95;
+ padding:10px;
+}
+/*-----------------------------------  THEME TEXT-LIGHT & HIGHLIGHT COLOR AREA CSS -----------------------------------------------*/
+.zs-text-light-color {
+color:#bbbbbb;
+}
+.zs-text-highlight-color {
+color:#333333;
+}
+.zs-highlight-box .zs-text-light-color {
+color:#bbbbbb;
+}
+.zs-highlight-box .zs-text-highlight-color {
+color:#ff4d53;
+}
+/*----------------------------------- THEME TABS ACCORDION AREA CSS -----------------------------------*/
+.zs-tabs ul, .zs-highlight-box .zs-tabs ul {
+    list-style: none;
+    float: left;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    border-bottom: 1px solid #ECECEC;
+}
+.zs-tabs ul li, .zs-highlight-box .zs-tabs ul li {
+    float: left;
+    margin: 0px 2px 0px 0;
+    padding: 0;
+}
+.zs-tabs ul li div, .zs-highlight-box .zs-tabs ul li div {
+    cursor: pointer;
+    position: relative;
+    padding: 0 20px;
+    font-size: 14px;
+    color: #555555;
+    margin: 0 0 -1px;
+    line-height: 3;
+    background: #F2F2F2;
+    border-top: 2px solid transparent;
+    border-bottom: 1px solid #ECECEC;
+}
+.zs-tabs ul li.selected div, .zs-highlight-box .zs-tabs ul li.selected div {
+    background: #ffffff;
+    border-top: 3px solid #FF4D53;
+    padding-top: 0;
+    color: #FF4D53;
+    border-left: 1px solid #ECECEC;
+    border-right: 1px solid #ECECEC;
+    border-bottom: 0;
+}
+.zs-tabs-accordion-content, .zs-highlight-box .zs-tabs-accordion-content {
+    background: #ffffff;
+    border: 1px solid #ECECEC;
+    padding: 15px;
+    display: none;
+    clear: both;
+    border-top: 0;
+    margin-bottom: 5px;
+    min-height: 70px;
+    height: auto !important;
+    height: 70px;
+}
+.zs-accordion, .zs-highlight-box .zs-accordion {
+    color: #555555;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    display: none;
+        background: #E4E4E4;
+    border: 1px solid #E2E2E2;
+}
+.zs-accordion.selected, .zs-highlight-box .zs-accordion.selected {
+    background: #FF4D53;
+    color: #ffffff;
+    margin-bottom: 0px;
+    border-color: #FF4D53;
+}
+/*--------------------- THEME HIGHLIGHT BOX TABS ACCORDION AREA CSS ---------------------*/
+.zs-highlight-box .zs-tabs ul li div {
+    background:#E9E9E9;
+}
+.zs-highlight-box .zs-tabs-accordion-content {
+    color: #5c5c5c;
+}
+.zs-highlight-box .zs-tabs-accordion-content h1, .zs-highlight-box .zs-tabs-accordion-content h2, .zs-highlight-box .zs-tabs-accordion-content h3, .zs-highlight-box .zs-tabs-accordion-content h4, .zs-highlight-box .zs-tabs-accordion-content h5, .zs-highlight-box .zs-tabs-accordion-content h6 {
+    color: #000000;
+}
+.zs-highlight-box .zs-tabs-accordion-content a, .zs-highlight-box .zs-tabs-accordion-content a:hover {
+    color: #000000;
+}
+.zs-highlight-box .zs-tabs-accordion-content hr {
+    border-top-color: #dbdbdb;
+}
+/*-----------------------------------  THEME NEWSLETTER AREA CSS -----------------------------------------------*/
+
+.newsletter-container {
+background: transparent;
+    padding: 10px
+}
+h3.newsletter-heading {
+    margin-bottom: 10px;
+font-family: 'Raleway', Gotham, Helvetica, Arial, sans-serif;
+font-size: 22px;
+color: #333333;
+}
+.newsletter-desc {
+    margin-bottom: 25px;
+font-family: 'Lato', Verdana, Geneva, sans-serif;
+font-size: 16px;
+color: #555555;
+}
+.newsletter-input-field {
+background: #ffffff;
+border-width: 1px;
+border-color: #E3E3E3;
+color:#555555;
+font-family: 'Lato', Verdana, Geneva, sans-serif;
+font-size: 14px;
+    border-style: solid;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    width: 250px;
+    padding: 10px 5px;
+    vertical-align:top;
+}
+button.newsletter-button {
+background: #F44248;
+border-width: 0;
+border-color: transparent;
+color:#ffffff;
+font-family: 'Lato', Verdana, Geneva, sans-serif;
+font-size: 14px;
+border-radius:0px;
+-webkit-border-radius:0px;
+-moz-border-radius:0px;
+-o-border-radius:0px;
+    border-style: solid;
+    cursor: pointer;
+    padding: 10px;
+    font-weight: 400;
+    box-sizing: border-box;
+    margin-right: 0;
+}
+.newsletter-layout-1 .newsletter-form, .newsletter-layout-2 .newsletter-form {
+    margin: 0 auto;
+    text-align: center;
+}
+.newsletter-layout-3 .newsletter-form {
+    width: 250px;
+    margin: 0 auto;
+    text-align: right;
+}
+.newsletter-layout-3 button {
+    text-align: right;
+}
+.newsletter-form input[type="text"]::-moz-placeholder {
+    color:#555555;
+  font-size:90%;
+  line-height:normal;
+}
+.newsletter-form  input[type="text"]::-webkit-input-placeholder{
+    color:#555555;
+  font-size:85%;
+  line-height:normal;
+}
+.newsletter-form  input[type="text"]:-ms-input-placeholder {
+    color:#555555;
+  font-size:90%;
+  line-height:normal;
+}
+/*----------------------------------- MEMBERSHIP PORTAL AREA CSS  -----------------------------------------------*/
+.mp-container {
+    height: 35px;
+    background:#F8F8F8;
+    border-bottom:1px solid #efefef;
+}
+.member-signin {
+    float: right;
+}
+.member-signin > ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    text-align:right;
+}
+.member-signin li {
+    display: inline-block;
+    line-height: 35px;
+    margin-left: 20px;
+    padding: 0;
+    position:relative;
+}
+.member-signin li a {
+ font-family:'Lato', Verdana, Geneva, sans-serif;
+ font-size:16px;
+    text-decoration:none;
+    color:#ff4d53;
+    display:block;
+}
+.member-signin li a:hover {
+    text-decoration:none;
+    color:#ff4d53;
+}
+.member-signin li:first-child {
+    margin-left: 0;
+}
+.member-signin li:last-child:before {
+    color:#ff4d53;
+    content: "|";
+    position: absolute;
+    top: 0;
+    left:-13px;
+}
+
+/*-----------------------------------  THEME RESPONSIVE MEDIA QUERIES AREA CSS -----------------------------------------------*/
+@media only screen and (min-width : 769px) and (max-width : 1024px) {
+.themeWidth {
+    width: 90%;
+}
+.themeTopArea {
+    padding: 0 25px;
+    overflow:inherit;
+}
+.themeBrandingArea, .themeNavigationArea, .themeSearchContainer, .themeLogoOuterContainer {
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+.themeNavigationArea {
+    float: none;
+    position: static;
+    width: 100%;
+    overflow:hidden;
+}
+.themeLogoArea {
+    padding-right: 0;
+}
+.tableRow, .tableCell {
+    display: block;
+}
+/*-----------------------------------  THEME SEARCH MEDIA QUERIES AREA CSS -----------------------------------------------*/
+form ul li label {
+    text-align: left;
+    padding-right: 0px;
+    width: auto;
+}
+form ul li label, form ul li div {
+    float: none;
+}
+/*-----------------------------------  THEME SIDEBAR AND CONTENT MEDIA QUERIES AREA CSS -----------------------------------------------*/
+.themeSidebarAreaInner {
+    margin-left: 35px;
+    padding:15px;
+}
+.themeSearchBox {
+    margin:0 auto;
+}
+.themeSearchContainer {
+    padding-top:24px;
+}
+.themeSearchBox input[type=text] {
+    float:left;
+}
+.themeSidebarAreaInner .newsletter-input-field {
+    width:200px;
+}
+.themeSidebarAreaInner .newsletter-layout-3 .newsletter-form {
+    width:200px;
+}
+.themeSidebarAreaInner .zs-highlight-box .newsletter-input-field, .themeSidebarAreaInner .zs-tabs-accordion-content .newsletter-input-field {
+    width:180px;
+}
+.themeSidebarAreaInner .zs-highlight-box .newsletter-layout-3 .newsletter-form, .themeSidebarAreaInner .zs-tabs-accordion-content .newsletter-layout-3 .newsletter-form {
+    width:180px;
+}
+}
+
+@media only screen and (min-width : 641px) and (max-width : 768px) {
+.themeWidth {
+    width: 85%;
+}
+.themeTopArea {
+    padding: 0 25px;
+    overflow:inherit;
+}
+/*-----------------------------------  THEME BRANDING MEDIA QUERIES AREA CSS -----------------------------------------------*/
+.themeBrandingArea {
+    float: none;
+    width: 100%;
+}
+.themeLogoArea {
+    padding-right: 0px;
+}
+.tableCell {
+    display: block;
+}
+.themeLogoOuterContainer {
+    text-align: center;
+}
+.themeLogoOuterContainer {
+    width: 100%;
+}
+.themeSitenameCaptionOuterContainer {
+    text-align: center;
+}
+.themeNavigationArea {
+    float: none;
+    position: static;
+    width:100%;
+    overflow:hidden;
+}
+#navigation ul {
+    position: static;
+    left: auto;
+    float: none;
+}
+#navigation ul li {
+    position: static;
+    right: auto;
+}
+/*-----------------------------------  THEME SIDEBAR AND CONTENT MEDIA QUERIES AREA CSS -----------------------------------------------*/
+.themeContentArea, .themeSidebarArea {
+    float: none;
+    width: 100%;
+}
+.themeSidebarAreaInner {
+    margin-left: 0px;
+}
+/*-----------------------------------  THEME SOCIAL ICONS MEDIA QUERIES AREA CSS -----------------------------------------------*/
+.themeSocialIconContainer {
+    position: static;
+    top: auto;
+}
+.themeSocialiconArea {
+    padding: 15px 0 0;
+    text-align: center;
+}
+.zs-socialicon-email, .zs-socialicon-facebook, .zs-socialicon-flickr, .zs-socialicon-googleplus, .zs-socialicon-linkedin, .zs-socialicon-pinterest, .zs-socialicon-rss, .zs-socialicon-twitter, .zs-socialicon-youtube, .zs-socialicon-medium, .zs-socialicon-instagram {
+    display: inline-block;
+    margin: 0 3px;
+}
+#navigation li a {
+    line-height: 5;
+}
+#navigation li.navArrow a em, #navigation li.navArrow:hover a em, #navigation li.selected.navArrow a em, #navigation li.selected.navArrow a em {
+    margin: 35px 0 0 10px;
+}
+/*-----------------------------------  THEME SEARCH MEDIA QUERIES AREA CSS -----------------------------------------------*/
+.themeSearchContainer {
+    padding-top: 0px;
+}
+/*-----------------------------------  THEME TAB ACCORDION AREA CSS -----------------------------------------------*/
+.zs-accordion, .themeFooterArea .zs-accordion, .zs-highlight-box .zs-accordion, .themeFooterArea .zs-highlight-box .zs-accordion {
+    display: block;
+}
+.zs-tabs ul, .themeFooterArea .zs-tabs ul, .zs-highlight-box .zs-tabs ul, .themeFooterArea .zs-highlight-box .zs-tabs ul {
+    display: none;
+}
+/*-----------------------------------  THEME SEARCH MEDIA QUERIES AREA CSS -----------------------------------------------*/
+form ul li label {
+    text-align: left;
+    padding-right: 0px;
+    width: auto;
+}
+form ul li label, form ul li div {
+    float: none;
+}
+form li span input[type="text"], form li span textarea, form li span select {
+    width: 250px;
+}
+form li span select {
+    width: 260px;
+}
+.zs-highlight-box .zs-tabs-accordion-content form li span input[type="text"], .themeSidebarArea .zs-highlight-box .zs-tabs-accordion-content form li span input[type="text"], .zs-highlight-box .zs-tabs-accordion-content form li span textarea, .themeSidebarArea .zs-highlight-box .zs-tabs-accordion-content form li span textarea, .zs-highlight-box .zs-tabs-accordion-content form li span select, .themeSidebarArea .zs-highlight-box .zs-tabs-accordion-content form li span select {
+    width: 250px;
+}
+.zs-highlight-box .zs-tabs-accordion-content form li span select, .themeSidebarArea .zs-highlight-box .zs-tabs-accordion-content form li span select {
+    width: 263px;
+}
+.zs-highlight-box .newsletter-layout-2 button.newsletter-button {
+    display:block;
+    margin:0 auto;
+}
+.themeSearchContainer {
+    padding-top:24px;
+    float:none;
+}
+.themeSearchBox {
+    margin:0 auto;
+}
+.member-signin {
+    width:100%;
+    float:none;
+    padding:0px;
+}
+.member-signin li:first-child {
+    width:80%;
+}
+.member-signin li a {
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    text-align:right;
+}
+}
+
+@media only screen and (min-width : 481px) and (max-width : 640px) {
+.themeWidth {
+    width: 85%;
+}
+.themeTopArea {
+    padding: 0 25px;
+}
+.themeLogoArea {
+    padding-right: 10px;
+}
+/*-----------------------------------  THEME BRANDING MEDIA QUERIES AREA CSS -----------------------------------------------*/
+.themeBrandingArea {
+    float: none;
+    width: 100%;
+}
+.themeLogoArea {
+    padding-right: 0px;
+}
+.tableCell {
+    display: block;
+}
+.themeLogoOuterContainer {
+    text-align: center;
+}
+.themeLogoOuterContainer {
+    width: 100%;
+}
+.themeSitenameCaptionOuterContainer {
+    text-align: center;
+}
+.themeNavigationArea {
+    float: none;
+    position: static;
+    width: 100%;
+}
+#navigation ul {
+    position: static;
+    left: auto;
+    float: none;
+}
+#navigation ul li {
+    position: static;
+    right: auto;
+}
+/*-----------------------------------  THEME SIDEBAR AND CONTENT MEDIA QUERIES AREA CSS -----------------------------------------------*/
+.themeContentArea, .themeSidebarArea {
+    float: none;
+    width: 100%;
+}
+.themeSidebarAreaInner {
+    margin-left: 0px;
+}
+/*-----------------------------------  THEME SOCIAL ICONS MEDIA QUERIES AREA CSS -----------------------------------------------*/
+.themeSocialIconContainer {
+    position: static;
+    top: auto;
+}
+.themeSocialiconArea {
+    padding: 15px 0 0;
+    text-align: center;
+}
+.zs-socialicon-email, .zs-socialicon-facebook, .zs-socialicon-flickr, .zs-socialicon-googleplus, .zs-socialicon-linkedin, .zs-socialicon-pinterest, .zs-socialicon-rss, .zs-socialicon-twitter, .zs-socialicon-youtube, .zs-socialicon-medium, .zs-socialicon-instagram {
+    display: inline-block;
+    margin: 0 3px;
+}
+#navigation li a {
+    line-height: 5;
+}
+#navigation li.navArrow a em, #navigation li.navArrow:hover a em, #navigation li.selected.navArrow a em, #navigation li.selected.navArrow a em {
+    margin: 35px 0 0 10px;
+}
+/*-----------------------------------  THEME SEARCH MEDIA QUERIES AREA CSS -----------------------------------------------*/
+.themeSearchContainer {
+    padding-top: 0;
+    float: none;
+}
+.themeSearchBox {
+    margin: 0 auto;
+}
+/*-----------------------------------  THEME TAB ACCORDION AREA CSS -----------------------------------------------*/
+.zs-accordion, .themeFooterArea .zs-accordion, .zs-highlight-box .zs-accordion, .themeFooterArea .zs-highlight-box .zs-accordion {
+    display: block;
+}
+.zs-tabs ul, .themeFooterArea .zs-tabs ul, .zs-highlight-box .zs-tabs ul, .themeFooterArea .zs-highlight-box .zs-tabs ul {
+    display: none;
+}
+/*-----------------------------------  THEME BACKGROUND TWO AREA CSS -----------------------------------------------*/
+.themeBackgroundTwo {
+    background-image: none;
+}
+/*-----------------------------------  THEME SEARCH MEDIA QUERIES AREA CSS -----------------------------------------------*/
+form ul li label {
+    text-align: left;
+    padding-right: 0px;
+    width: auto;
+}
+form ul li label, form ul li div {
+    float: none;
+}
+form li span input[type="text"], form li span textarea, form li span select {
+    width: 250px;
+}
+form li span select {
+    width: 260px;
+}
+.zs-highlight-box .zs-tabs-accordion-content form li span input[type="text"], .themeSidebarArea .zs-highlight-box .zs-tabs-accordion-content form li span input[type="text"], .zs-highlight-box .zs-tabs-accordion-content form li span textarea, .themeSidebarArea .zs-highlight-box .zs-tabs-accordion-content form li span textarea, .zs-highlight-box .zs-tabs-accordion-content form li span select, .themeSidebarArea .zs-highlight-box .zs-tabs-accordion-content form li span select {
+    width: 220px;
+}
+.zs-highlight-box .zs-tabs-accordion-content form li span select, .themeSidebarArea .zs-highlight-box .zs-tabs-accordion-content form li span select {
+    width: 233px;
+}
+.themeSearchContainer {
+    display:none;
+}
+.newsletter-layout-2 button.newsletter-button {
+    display:block;
+    margin:0 auto;
+}
+.member-signin {
+    width:100%;
+    float:none;
+    padding:0px;
+}
+.member-signin li:first-child {
+    width:75%;
+}
+.member-signin li a {
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    text-align:right;
+}
+}
+
+@media only screen and (min-width : 321px) and (max-width : 480px) {
+.themeWidth {
+    width: 85%;
+}
+.themeTopArea {
+    padding: 0 25px;
+}
+.themeLogoArea {
+    padding-right: 10px;
+}
+/*-----------------------------------  THEME BRANDING MEDIA QUERIES AREA CSS -----------------------------------------------*/
+.themeBrandingArea {
+    float: none;
+    width: 100%;
+}
+.themeLogoArea {
+    padding-right: 0px;
+}
+.tableCell {
+    display: block;
+}
+.themeLogoOuterContainer {
+    text-align: center;
+}
+.themeLogoOuterContainer {
+    width: 100%;
+}
+.themeSitenameCaptionOuterContainer {
+    text-align: center;
+}
+.themeNavigationArea {
+    float: none;
+    position: static;
+    width: 100%;
+}
+#navigation ul {
+    position: static;
+    left: auto;
+    float: none;
+}
+#navigation ul li {
+    right: auto;
+}
+/*-----------------------------------  THEME SIDEBAR AND CONTENT MEDIA QUERIES AREA CSS -----------------------------------------------*/
+.themeContentArea, .themeSidebarArea {
+    float: none;
+    width: 100%;
+}
+.themeSidebarAreaInner {
+    margin-left: 0px;
+}
+/*-----------------------------------  THEME SOCIAL ICONS MEDIA QUERIES AREA CSS -----------------------------------------------*/
+.themeSocialIconContainer {
+    position: static;
+    top: auto;
+}
+.themeSocialiconArea {
+    padding: 15px 0 0;
+    text-align: center;
+}
+.zs-socialicon-email, .zs-socialicon-facebook, .zs-socialicon-flickr, .zs-socialicon-googleplus, .zs-socialicon-linkedin, .zs-socialicon-pinterest, .zs-socialicon-rss, .zs-socialicon-twitter, .zs-socialicon-youtube, .zs-socialicon-medium, .zs-socialicon-instagram {
+    display: inline-block;
+    margin: 0 3px;
+}
+#navigation li a {
+    line-height: 5;
+}
+#navigation li.navArrow a em, #navigation li.navArrow:hover a em, #navigation li.selected.navArrow a em, #navigation li.selected.navArrow a em {
+    margin: 35px 0 0 10px;
+}
+/*-----------------------------------  THEME SEARCH MEDIA QUERIES AREA CSS -----------------------------------------------*/
+.themeSearchContainer {
+    padding-top: 0;
+    float: none;
+}
+.themeSearchBox {
+    margin: 0 auto;
+}
+/*-----------------------------------  THEME SEARCH MEDIA QUERIES AREA CSS -----------------------------------------------*/
+form ul li label {
+    text-align: left;
+    padding-right: 0px;
+    width: auto;
+}
+form ul li label, form ul li div {
+    float: none;
+}
+form li span input[type="text"], form li span textarea, form li span select {
+    width: 250px;
+}
+form li span select {
+    width: 260px;
+}
+/*-----------------------------------  THEME TAB ACCORDION AREA CSS -----------------------------------------------*/
+.zs-accordion, .themeFooterArea .zs-accordion, .zs-highlight-box .zs-accordion, .themeFooterArea .zs-highlight-box .zs-accordion {
+    display: block;
+}
+.zs-tabs ul, .themeFooterArea .zs-tabs ul, .zs-highlight-box .zs-tabs ul, .themeFooterArea .zs-highlight-box .zs-tabs ul {
+    display: none;
+}
+.zs-highlight-box .zs-tabs-accordion-content form li span input[type="text"], .themeSidebarArea .zs-highlight-box .zs-tabs-accordion-content form li span input[type="text"], .zs-highlight-box .zs-tabs-accordion-content form li span textarea, .themeSidebarArea .zs-highlight-box .zs-tabs-accordion-content form li span textarea, .zs-highlight-box .zs-tabs-accordion-content form li span select, .themeSidebarArea .zs-highlight-box .zs-tabs-accordion-content form li span select {
+    width: 220px;
+}
+.zs-highlight-box .zs-tabs-accordion-content form li span select, .themeSidebarArea .zs-highlight-box .zs-tabs-accordion-content form li span select {
+    width: 233px;
+}
+/*-----------------------------------  THEME BACKGROUND TWO AREA CSS -----------------------------------------------*/
+.themeBackgroundTwo {
+    background-image: none;
+}
+.themeSearchContainer {
+    display:none;
+}
+.newsletter-input-field {
+    width:220px;
+}
+.newsletter-layout-3 .newsletter-form {
+    width:220px;
+}
+.newsletter-layout-2 button.newsletter-button {
+    display:block;
+    margin:0 auto;
+}
+.member-signin {
+    width:100%;
+    float:none;
+    padding:0px;
+}
+.member-signin li:first-child {
+    width:70%;
+}
+.member-signin li a {
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    text-align:right;
+}
+}
+
+@media only screen and (max-width : 320px) {
+.themeWidth {
+    width: 90%;
+}
+.themeTopArea {
+    padding: 0 25px;
+}
+.themeLogoArea {
+    padding-right: 10px;
+}
+/*-----------------------------------  THEME BRANDING MEDIA QUERIES AREA CSS -----------------------------------------------*/
+.themeBrandingArea {
+    float: none;
+    width: 100%;
+}
+.themeLogoArea {
+    padding-right: 0px;
+}
+.tableCell {
+    display: block;
+}
+.themeLogoOuterContainer {
+    text-align: center;
+}
+.themeLogoOuterContainer {
+    width: 100%;
+}
+.themeSitenameCaptionOuterContainer {
+    text-align: center;
+}
+.themeNavigationArea {
+    float: none;
+    position: static;
+    width: 100%;
+}
+#navigation ul {
+    position: static;
+    left: auto;
+    float: none;
+}
+#navigation ul li {
+    right: auto;
+}
+/*-----------------------------------  THEME SIDEBAR AND CONTENT MEDIA QUERIES AREA CSS -----------------------------------------------*/
+.themeContentArea, .themeSidebarArea {
+    float: none;
+    width: 100%;
+}
+.themeSidebarAreaInner {
+    margin-left: 0px;
+    padding: 15px;
+}
+/*-----------------------------------  THEME SOCIAL ICONS MEDIA QUERIES AREA CSS -----------------------------------------------*/
+.themeSocialIconContainer {
+    position: static;
+    top: auto;
+}
+.themeSocialiconArea {
+    padding: 15px 0 0;
+    text-align: center;
+}
+.zs-socialicon-email, .zs-socialicon-facebook, .zs-socialicon-flickr, .zs-socialicon-googleplus, .zs-socialicon-linkedin, .zs-socialicon-pinterest, .zs-socialicon-rss, .zs-socialicon-twitter, .zs-socialicon-youtube, .zs-socialicon-medium, .zs-socialicon-instagram {
+    display: inline-block;
+    margin: 0 3px;
+}
+#navigation li a {
+    line-height: 5;
+}
+#navigation li.navArrow a em, #navigation li.navArrow:hover a em, #navigation li.selected.navArrow a em, #navigation li.selected.navArrow a em {
+    margin: 35px 0 0 10px;
+}
+/*-----------------------------------  THEME SEARCH MEDIA QUERIES AREA CSS -----------------------------------------------*/
+.themeSearchContainer {
+    padding-top: 0;
+    float: none;
+}
+.themeSearchBox {
+    margin: 0 auto;
+}
+/*-----------------------------------  THEME SEARCH MEDIA QUERIES AREA CSS -----------------------------------------------*/
+form ul li label {
+    text-align: left;
+    padding-right: 0px;
+    width: auto;
+}
+form ul li label, form ul li div {
+    float: none;
+}
+form li span input[type="text"], form li span textarea, form li span select, .zs-highlight-box form li span input[type=text], .zs-highlight-box form li span textarea, .zs-highlight-box form li span select {
+    width: 210px;
+}
+form li span select, .zs-highlight-box form li span select {
+    width: 220px;
+}
+.themeSidebarAreaInner form li input[type="submit"], .themeSidebarAreaInner form li input[type="reset"] {
+    padding: 12px 25px;
+}
+.themeSidebarAreaInner .zs-highlight-box form li input[type="submit"], .themeSidebarAreaInner .zs-highlight-box form li input[type="reset"] {
+    padding: 12px 20px
+}
+/*-----------------------------------  THEME TAB ACCORDION AREA CSS -----------------------------------------------*/
+.zs-accordion, .themeFooterArea .zs-accordion, .zs-highlight-box .zs-accordion, .themeFooterArea .zs-highlight-box .zs-accordion {
+    display: block;
+}
+.zs-tabs ul, .themeFooterArea .zs-tabs ul, .zs-highlight-box .zs-tabs ul, .themeFooterArea .zs-highlight-box .zs-tabs ul {
+    display: none;
+}
+.zs-highlight-box .zs-tabs-accordion-content form li span input[type="text"], .themeSidebarAreaInner .zs-highlight-box .zs-tabs-accordion-content form li span input[type="text"], .zs-highlight-box .zs-tabs-accordion-content form li span textarea, .themeSidebarAreaInner .zs-highlight-box .zs-tabs-accordion-content form li span textarea, .zs-highlight-box .zs-tabs-accordion-content form li span select, .themeSidebarAreaInner .zs-highlight-box .zs-tabs-accordion-content form li span select {
+    width: 150px;
+}
+.zs-highlight-box .zs-tabs-accordion-content form li span select, .themeSidebarAreaInner .zs-highlight-box .zs-tabs-accordion-content form li span select {
+    width: 163px;
+}
+/*-----------------------------------  THEME BACKGROUND TWO AREA CSS -----------------------------------------------*/
+.themeBackgroundTwo {
+    background-image: none;
+}
+.zs-highlight-box, .themeSidebarAreaInner .zs-highlight-box, .themeFooterArea .zs-highlight-box {
+    padding: 10px;
+}
+.themeSearchContainer {
+    display:none;
+}
+form li input[type=submit], form li input[type=reset] {
+    padding:12px 25px;
+}
+.newsletter-input-field {
+    width:200px;
+}
+.newsletter-layout-3 .newsletter-form {
+    width:200px;
+}
+.member-signin {
+    width:100%;
+    float:none;
+    padding:0px;
+}
+.member-signin li:first-child {
+    width:70%;
+}
+.member-signin li a {
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    text-align:right;
+}
+}
+ 
